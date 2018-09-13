@@ -1,3 +1,7 @@
+This is just an idea I've been kicking around...
+
+
+
 ### Don't: template-based, decentralized static analysis for Go
 
 dont is a static analysis tool. It complements go vet, staticcheck, and regular tests.
@@ -59,10 +63,11 @@ that they are expressive enough.
 The actual matching engine remains to be written. :)
 I expect it to be non-trivial.
 
-It might also not live at github.com/josharian/dont. The "dont" name is subject to change,
-and I might want it to be at github.com/commaok or foggy.co instead. TBD.
+https://github.com/mvdan/gogrep might be a useful source of inspiration.
+
+Looks like https://codelingo.io/ might be doing something somewhat similar.
 
 ### License
 
-Private for now. It'll probably be Go-like BSD and/or MIT, but I haven't fully decided yet.
+BSD. Not that there's much here. :)
 
